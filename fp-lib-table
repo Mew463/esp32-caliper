@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/ESP32-C3-MINI-1-N4")(options "")(descr ""))
+  (lib (name "neopixel")(type "KiCad")(uri "${KIPRJMOD}/NeoPixel")(options "")(descr ""))
+  (lib (name "mcp738")(type "KiCad")(uri "${KIPRJMOD}/MCP73831T-5ACI_OT")(options "")(descr ""))
+  (lib (name "3V3Reg")(type "KiCad")(uri "${KIPRJMOD}/LP5907MFX-3.3_NOPB")(options "")(descr ""))
+  (lib (name "ESD Prot")(type "KiCad")(uri "${KIPRJMOD}/SP0503BAHTG")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "slide switch")(type "KiCad")(uri "${KIPRJMOD}/slide switch")(options "")(descr ""))
+  (lib (name "panelization")(type "KiCad")(uri "${KIPRJMOD}/Panelization.pretty")(options "")(descr ""))
+  (lib (name "slide switch v2")(type "KiCad")(uri "${KIPRJMOD}/1825232-1")(options "")(descr ""))
+  (lib (name "led")(type "KiCad")(uri "${KIPRJMOD}/LTST-S270KRKT")(options "")(descr ""))
+  (lib (name "slide switch v3")(type "KiCad")(uri "${KIPRJMOD}/JS102011SAQN")(options "")(descr ""))
+)

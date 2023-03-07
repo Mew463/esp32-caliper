@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/ESP32-C3-MINI-1-N4/ESP32-C3-MINI-1-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "neopixel")(type "KiCad")(uri "${KIPRJMOD}/NeoPixel/1655.kicad_sym")(options "")(descr ""))
+  (lib (name "mcp738")(type "KiCad")(uri "${KIPRJMOD}/MCP73831T-5ACI_OT/MCP73831T-5ACI_OT.kicad_sym")(options "")(descr ""))
+  (lib (name "3V3Reg")(type "KiCad")(uri "${KIPRJMOD}/LP5907MFX-3.3_NOPB/LP5907MFX-3.3_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD Prot")(type "KiCad")(uri "${KIPRJMOD}/SP0503BAHTG/SP0503BAHTG.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library_0")(type "KiCad")(uri "${KIPRJMOD}/New_Library_0.kicad_sym")(options "")(descr ""))
+  (lib (name "slide switch")(type "KiCad")(uri "${KIPRJMOD}/slide switch/AS11AP.kicad_sym")(options "")(descr ""))
+  (lib (name "slide switch v2")(type "KiCad")(uri "${KIPRJMOD}/1825232-1/1825232-1.kicad_sym")(options "")(descr ""))
+  (lib (name "slide switch v3")(type "KiCad")(uri "${KIPRJMOD}/JS102011SAQN/JS102011SAQN.kicad_sym")(options "")(descr ""))
+)

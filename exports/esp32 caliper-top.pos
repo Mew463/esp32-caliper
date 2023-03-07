@@ -1,0 +1,47 @@
+### Module positions - created on Thursday, February 09, 2023 at 10:11:08 AM ###
+### Printed by Pcbnew version (6.0.9-0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                               PosX       PosY       Rot  Side
+BT1       3.7                   Battery                           148.5900   -71.1200    0.0000  top
+C1        4.7u                  C_0402_1005Metric                 171.6000   -76.0000    0.0000  top
+C2        4.7u                  C_0402_1005Metric                 163.0000   -77.4000   90.0000  top
+C3        1u                    C_0402_1005Metric                 162.0520   -64.5000   90.0000  top
+C4        1u                    C_0402_1005Metric                 161.8000   -79.6000   90.0000  top
+C5        1u                    C_0402_1005Metric                 168.2000   -63.0000    0.0000  top
+C6        1u                    C_0402_1005Metric                 161.9250   -68.5200   90.0000  top
+C7        10n                   C_0402_1005Metric                 168.6560   -69.0000    0.0000  top
+C8        1u                    C_0402_1005Metric                 168.6560   -67.0000    0.0000  top
+C9        10uF                  C_0402_1005Metric                 184.6200   -66.4000  180.0000  top
+C10       .1uF                  C_0402_1005Metric                 184.6200   -65.1300  180.0000  top
+C11       .1uF                  C_0402_1005Metric                 152.4000   -56.5150    0.0000  top
+C12       .1uF                  C_0402_1005Metric                 148.5900   -59.0550    0.0000  top
+D1        SP0503BAHTG           SOT143                            192.4050   -65.4050   90.0000  top
+D2        NeoPixel              LED_1655                          166.6685   -90.8545  180.0000  top
+D3        D_Schottky            D_SOD-523                         174.0000   -60.3000    0.0000  top
+D4        D_Schottky            D_SOD-523                         169.2396   -77.9398  180.0000  top
+J1        USB4105-GF-A          GCT_USB4105-GF-A                  187.9500   -56.8100  180.0000  top
+Q3        SSM3K36FS             SOT-416                           168.8796   -72.9648    0.0000  top
+R1        50k                   R_0402_1005Metric                 152.4000   -57.7850  180.0000  top
+R3        5k1                   R_0402_1005Metric                 165.0696   -71.6948    0.0000  top
+R4        5k1                   R_0402_1005Metric                 189.2300   -66.0400   90.0000  top
+R5        5k1                   R_0402_1005Metric                 186.6900   -66.0400   90.0000  top
+R6        100k                  R_0402_1005Metric                 193.6750   -59.0550   90.0000  top
+R7        5k1                   R_0402_1005Metric                 165.0696   -72.9648  180.0000  top
+R8        2k                    R_0402_1005Metric                 169.2396   -75.9398  180.0000  top
+R9        50k                   R_0402_1005Metric                 165.0696   -74.4000  180.0000  top
+R10       50k                   R_0402_1005Metric                 160.2000   -57.8000   90.0000  top
+R13       0                     R_0402_1005Metric                 174.2000   -80.4000  180.0000  top
+SW2       Rst                   SW_PUSH_6mm_H4.3mm                168.9850   -60.6700  180.0000  top
+SW3       SendEnter             SW_PUSH_6mm_H4.3mm                155.4185   -92.1045   90.0000  top
+SW4       SendSpace             SW_PUSH_6mm_H4.3mm                173.4185   -92.1045   90.0000  top
+U1        MCP73831T-5ACI/OT     SOT95P280X145-5N                  165.7046   -76.9398    0.0000  top
+U2        Dig_Caliper           Caliper                           139.9500   -55.8800    0.0000  top
+U3        LP5907MFX-3.3         SOT95P280X145-5N                  165.0000   -64.0000    0.0000  top
+U4        ESP32-C3-MINI-1-N4    XCVR_ESP32-C3-MINI-1-N4           185.4200   -74.2950  -90.0000  top
+U5        LP2992IM5X-1.5/NOPB   SOT-23-5                          165.0000   -68.0000    0.0000  top
+U6        InterBoardConnection  InterBoardConnection              152.9620   -82.1750    0.0000  top
+U7        1825232-1             1825232-1                         176.5300   -57.1500  180.0000  top
+U8        Logic_Converter       VSSOP-8_2.3x2mm_P0.5mm            148.5900   -57.1500    0.0000  top
+U9        USBC_Probe_Point      PinHeader_1x06_P1.00mm_Vertical   180.5000   -60.5000    0.0000  top
+## End
