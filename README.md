@@ -33,10 +33,10 @@ The smaller pads made it more painful to solder wires to the pads, but it was do
 
 With a oscilloscope, I probed each pad to determine which was the clock line and which was the data line.
 
-## Level Shifting
-Because the Caliper's logic level is 1.5v but the ESP32 is 3v3, I needed to use a level shifter. V1 and V3 use the transistor circuit below which shifts and inverts the clock and data lines coming from the caliper. V2 used a IC level shifter which didn't work at all for some reason. 
+## Logic converter
+Because the Caliper's logic level is 1.5v but the ESP32 is 3v3, I needed to use a logic converter. V1 and V3 use the transistor circuit below which shifts and inverts the clock and data lines coming from the caliper. V2 used a IC level shifter which didn't work at all for some reason. 
 
-![]() logic shifter
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/logic%20converter.png) Logic converter
 
 ## Data protocol
 Like many other people who have done something semi-similar, I discovered that there are 24 bits sent out by the caliper.
@@ -58,7 +58,7 @@ Designed in KiCAD 6.0 and all components were bought from Mouser
 ![](https://github.com/Mew463/esp32-caliper/blob/main/images/blinkypcbs.gif)
 
 ## CAD
-![]()
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/Onshape%20Rendering.png)
 
 [CAD](https://cad.onshape.com/documents/368abd500c875635f19a3005/w/ab7db60efad03bd7d6054350/e/1cf117eaa5e9ddddb41ff0d8?renderMode=0&uiState=6407caa931dacb56d467d292)
 
