@@ -33,6 +33,11 @@ The smaller pads made it more painful to solder wires to the pads, but it was do
 
 With a oscilloscope, I probed each pad to determine which was the clock line and which was the data line.
 
+## Level Shifting
+Because the Caliper's logic level is 1.5v but the ESP32 is 3v3, I needed to use a level shifter. V1 and V3 use the transistor circuit below which shifts and inverts the clock and data lines coming from the caliper. V2 used a IC level shifter which didn't work at all for some reason. 
+
+![]() logic shifter
+
 ## Data protocol
 Like many other people who have done something semi-similar, I discovered that there are 24 bits sent out by the caliper.
 
@@ -53,9 +58,12 @@ Designed in KiCAD 6.0 and all components were bought from Mouser
 ![](https://github.com/Mew463/esp32-caliper/blob/main/images/blinkypcbs.gif)
 
 ## CAD
+![]()
+
 [CAD](https://cad.onshape.com/documents/368abd500c875635f19a3005/w/ab7db60efad03bd7d6054350/e/1cf117eaa5e9ddddb41ff0d8?renderMode=0&uiState=6407caa931dacb56d467d292)
 
 # Summary 
+This project took like 40 hours and 3 revisions of pcbs.
 TBH if you really want a bluetooth caliper just buy one premade, it'll save you a lot of headache. This project probably took me like 40 hrs and 3 revisions of pcbs.
 
 Premade [bluetooth calipers](https://www.amazon.com/iGaging-Electronic-Absolute-Bluetooth-Connectivity/dp/B0716B8Q99/ref=sr_1_3?crid=NPXC9LKMF29V&keywords=bluetooth+caliper&qid=1678232538&s=hi&sprefix=bluetooth+calip%2Ctools%2C187&sr=1-3)
