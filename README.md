@@ -1,12 +1,12 @@
 # Summary
 This project adds bluetooth functionality to an ordinary set of calipers with an embedded ESP32 C3. It's main purpose was to speed up CAD Development with it's ability to automatically enter numbers into OnShape.
+![]()
 
 It features a built in 150mAh battery and a USB C interface for charging/uploading code. 
 
-![](https://github.com/Mew463/esp32-caliper/blob/main/esp32%20caliper.jpg)
 
-This was meant to be a direct replacement for the GROSS solution that you could just buy:
-![](gross image)
+This is meant to be a direct replacement for the GROSS solution that you could just buy:
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/grossexistingsolution.png)
 
 
 # Features
@@ -22,16 +22,38 @@ This was meant to be a direct replacement for the GROSS solution that you could 
 # Decoding the Caliper Data
 ![Calipers Used](https://www.amazon.com/Neiko-01407A-Electronic-Digital-Stainless/dp/B000GSLKIW/ref=sr_1_1_sspa?crid=24I6FXWO3H5A4&keywords=neiko+caliper&qid=1678232283&sprefix=neiko+calip%2Caps%2C243&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExQ0FaOFdNMVQ3TTImZW5jcnlwdGVkSWQ9QTA2ODI2NTAyUTFQWVNNVFVCQkZNJmVuY3J5cHRlZEFkSWQ9QTAyNTI0MDAzRERQVjZMWVAxWTExJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 
-Old port configuration: 
-![]() 
+## Soldering Wires
+My old caliper's data output port looked like this:
+ 
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/old%20caliper%20data%20port.png) 
 
+Though I broke the old caliper during this project and had to buy a brand new version of my old caliper. It seemed that the data output port changed to be adapted for a female micro usb (though there wasn't one soldered on the pcb).
 
+The smaller pads made it more painful to solder wires to the pads, but it was doable.
+
+With a oscilloscope, I probed each pad to determine which was the clock line and which was the data line.
+
+## Data protocol
+Like many other people who have done something semi-similar, I discovered that there are 24 bits sent out by the caliper.
+
+The bit at index[0] is always 1
+
+Bits fron index[1] - index[15] signify the value with the LCB being first
+
+index[21] signifies a negative number
+
+My old caliper had one bit to indicate the unit, but my new caliper did not have this bit (? idk why).
 
 # Creation
+## KiCAD
 Designed in KiCAD 6.0 and I bought everything from Mouser
+
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/esp32%20caliper.jpg)
+
+## CAD
 ![CAD](https://cad.onshape.com/documents/368abd500c875635f19a3005/w/ab7db60efad03bd7d6054350/e/1cf117eaa5e9ddddb41ff0d8?renderMode=0&uiState=6407caa931dacb56d467d292)
 
-![](https://github.com/Mew463/esp32-caliper/blob/main/blinkypcbs.gif)
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/blinkypcbs.gif)
 
 # Summary 
 TBH if you really want a bluetooth caliper just buy one premade, it'll save you a lot of headache. This project probably took me like 60 hrs and 3 revisions of pcbs.
