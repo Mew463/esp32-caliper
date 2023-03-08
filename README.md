@@ -31,7 +31,7 @@ Unfortunately I broke the old caliper during this project and had to buy a brand
 
 The smaller pads made it more painful to solder wires to, but it was doable.
 
-With a oscilloscope, I probed each pad to determine which was the clock, data, and ground line.
+With an oscilloscope, I probed each pad to determine which was the clock, data, and ground line.
 
 ## Logic converter
 Because the Caliper's logic level is 1.5v but the ESP32 is 3v3, I needed to use a logic converter. V1 and V3 use the transistor circuit below which shifts and inverts the clock and data lines coming from the caliper. V2 used a IC level shifter which didn't work at all for some unknown reason. 
@@ -51,7 +51,7 @@ My old caliper had one bit to indicate the unit, but my new caliper did not have
 
 # Creation
 ## KiCAD
-Designed in KiCAD 6.0. Bought from Mouser and Manufactured by JLCPCB. I assembled them by hand.
+Designed in KiCAD 6.0. Bought from Mouser and manufactured by JLCPCB. I assembled them by hand.
 
 ![](https://github.com/Mew463/esp32-caliper/blob/main/images/esp32%20caliper.jpg)
 
@@ -64,6 +64,6 @@ Designed in KiCAD 6.0. Bought from Mouser and Manufactured by JLCPCB. I assemble
 
 # Summary 
 This project took like 40 hours and 3 revisions of pcbs.
-If you really want a bluetooth caliper just buy one premade, it'll save you a lot of headache. Otherwise this is a fun intro-to-embedded project. ESP32C Caliper took me like 40 hrs and 3 revisions of pcbs.
+If you really want a bluetooth caliper just buy one premade, it'll save you a lot of headache. Otherwise this is a fun intro-to-embedded project.
 
 [Premade bluetooth calipers](https://www.amazon.com/iGaging-Electronic-Absolute-Bluetooth-Connectivity/dp/B0716B8Q99/ref=sr_1_3?crid=NPXC9LKMF29V&keywords=bluetooth+caliper&qid=1678232538&s=hi&sprefix=bluetooth+calip%2Ctools%2C187&sr=1-3)
