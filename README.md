@@ -4,8 +4,8 @@ This project adds bluetooth functionality to an ordinary set of calipers with an
 
 It features a built in 150mAh battery and a USB C interface for charging/uploading code. 
 
-![](https://github.com/Mew463/esp32-caliper/blob/main/images/niceimage1)
-![](https://github.com/Mew463/esp32-caliper/blob/main/images/niceimage2)
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/niceimage1.jpg)
+![](https://github.com/Mew463/esp32-caliper/blob/main/images/niceimage2.jpg)
 
 This is meant to be a direct replacement for the GROSS solution that you could just buy for the inexpensive price of $100:
 ![](https://github.com/Mew463/esp32-caliper/blob/main/images/grossexistingsolution.png)
