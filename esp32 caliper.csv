@@ -1,26 +1,94 @@
-Quantity,Manufacturer
-1,ASR00003
-2,GRM155R60J475ME87D
-3, GCM155C71A105KE38D
-1,GRM155R60J106ME15D
-1,GRM152R61A104KE19D
-1,SP0503BAHTG
-1,485-1655
-2,NSR05T30XV2T5G
-1,LTST-S270KRKT
-1,GCT
-1,"SSM3K36FS,LF"
-5,ERJ-2RKF4992X
-4,ERJ-2RKF5101X
-1,ERA-2VEB1003X
-1,ERJ-H2RD2001X
-1, ERJ-H2RD4700X
-2,ERJ-2RKF1002X
-1,JS102011SAQN
-1,434133025816
-1,434133025816
-1,434133025816
-1,434133025816
-1,MCP73831T-5ACI/OT
-1,LP5907MFX-3.3/NOPB
-1,ESP32-C3-MINI-1-N4 
+"Source:","/home/daniel/projects/esp32-caliper/esp32 caliper.kicad_sch"
+"Date:","Mo 13 Mär 2023 21:22:33 CET"
+"Tool:","Eeschema (6.0.11)"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","47"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","AVAILABILITY","DESCRIPTION","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","MF","MP","MPN","OC_FARNELL","OC_NEWARK","PACKAGE","PARTREV","PRICE","STANDARD","SUPPLIER"
+"","","BT1","3.7","Device:Battery_Cell","Library:Battery","~","","","ASR00003","","","","","","","","","","",""
+"","","C1","4.7u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","","","GRM155R60J475ME87D","","","","","","","","","","",""
+"","","C2","4.7u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","","","GRM155R60J475ME87D","","","","","","","","","","",""
+"","","C3","1u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","",""," GCM155C71A105KE38D","","","","","","","","","","",""
+"","","C4","1u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","",""," GCM155C71A105KE38D","","","","","","","","","","",""
+"","","C5","1u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","",""," GCM155C71A105KE38D","","","","","","","","","","",""
+"","","C6","1u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","",""," GCM155C71A105KE38D","","","","","","","","","","",""
+"","","C7","1u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","",""," GCM155C71A105KE38D","","","","","","","","","","",""
+"","","C9","10uF","Device:C","Capacitor_SMD:C_0402_1005Metric","~","","","GRM155R60J106ME15D","","","","","","","","","","",""
+"","","C10",".1uF","Device:C","Capacitor_SMD:C_0402_1005Metric","~","","","GRM152R61A104KE19D","","","","","","","","","","",""
+"","","D1","SP0503BAHTG","ESD Prot:SP0503BAHTG","ESD Prot:SOT143","","Good","TVS DIODE 5.5VWM 8.5VC SOT143","SP0503BAHTG","","Littelfuse","SP0503BAHTG","","","","SOT-143 Littelfuse","N/A","0.46 USD","IPC-7351B",""
+"","","D2","NeoPixel","neopixel:NeoPixel","neopixel:LED_1655","","","","485-1655","1.6 mm","","","","","","","01","","Manufacturer recommendations",""
+"","","D3","D_Schottky","Device:D_Schottky","Diode_SMD:D_SOD-523","~","","","NSR05T30XV2T5G","","","","","","","","","","",""
+"","","D4","D_Schottky","Device:D_Schottky","Diode_SMD:D_SOD-523","~","","","NSR05T30XV2T5G","","","","","","","","","","",""
+"","","D5","LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","","","LTST-S270KRKT","","","","","","","","","","",""
+"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","","","","","","","","","","","","",""
+"","","J1","USB4105-GF-A","USB C:USB4105-GF-A","USB C:GCT_USB4105-GF-A","","","","USB4105-GF-A","3.31 mm","","","","","","","A3","","Manufacturer Recommendations",""
+"","","J2","Current Testing","Connector:Conn_01x02_Male","Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical","~","","","","","","","","","","","","","",""
+"","","Q1","BC846BLT1G","Transistor_BJT:2SC4213","Package_TO_SOT_SMD:SOT-23","https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213","","","BC846BLT1G","","","","","","","","","","",""
+"","","Q2","BC846BLT1G","Transistor_BJT:2SC4213","Package_TO_SOT_SMD:SOT-23","https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213","","","BC846BLT1G","","","","","","","","","","",""
+"","","Q3","SSM3K36FS","Transistor_FET:2N7002","Package_TO_SOT_SMD:SOT-416","https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF","","","SSM3K36FS,LF","","","","","","","","","","",""
+"","","R1","50k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF4992X","","","","","","","","","","",""
+"","","R2","50k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF4992X","","","","","","","","","","",""
+"","","R3","5k1","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF5101X","","","","","","","","","","",""
+"","","R4","5k1","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF5101X","","","","","","","","","","",""
+"","","R5","5k1","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF5101X","","","","","","","","","","",""
+"","","R6","100k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERA-2VEB1003X","","","","","","","","","","",""
+"","","R7","5k1","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF5101X","","","","","","","","","","",""
+"","","R8","2k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-H2RD2001X","","","","","","","","","","",""
+"","","R9","470","Device:R","Resistor_SMD:R_0402_1005Metric","~","",""," ERJ-H2RD4700X","","","","","","","","","","",""
+"","","R10","50k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF4992X","","","","","","","","","","",""
+"","","R11","50k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF4992X","","","","","","","","","","",""
+"","","R12","50k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF4992X","","","","","","","","","","",""
+"","","R13","10k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF1002X","","","","","","","","","","",""
+"","","R14","10k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF1002X","","","","","","","","","","",""
+"","","S1","JS102011SAQN","slide switch v3:JS102011SAQN","slide switch v3:SW_JS102011SAQN","JS102011SAQN","","","JS102011SAQN","","","","","","","","","","",""
+"","","SW1","Boot","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"","","SW2","Rst","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"","","SW3","SendEnter","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"","","SW4","SendSpace","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"","","U1","MCP73831T-5ACI/OT","mcp738:MCP73831T-5ACI{slash}OT","mcp738:SOT95P280X145-5N","","","","MCP73831T-5ACI/OT","","","","MCP73831T-5ACI/OT","1332158","56K7045","SOT-5","","","","Microchip"
+"","","U2","Dig_Caliper","New_Library:Dig_Caliper","Library:Caliper","","","","","","","","","","","","","","",""
+"","","U3","LP5907MFX-3.3","3V3Reg:LP5907MFX-3.3","3V3Reg:SOT95P280X145-5N","","","","LP5907MFX-3.3/NOPB","","","","","","","","","","",""
+"","","U4","ESP32-C3-MINI-1-N4","esp32:ESP32-C3-MINI-1-N4","esp32:XCVR_ESP32-C3-MINI-1-N4","","","","ESP32-C3-MINI-1-N4 ","2.55mm","","","","","","","v1.0","","Manufacturer Recommendations",""
+"","","U5","LP5907MFX-1.5/NOPB","1V5Reg:LP5907MFX-1.5{slash}NOPB","SOT95P280X145-5N","","","","","","","","","","","","","","",""
+"","","U6","InterBoardConnection","New_Library:InterBoardConnection","Library:InterBoardConnection","","","","","","","","","","","","","","",""
+"","","U9","USBC_Probe_Point","New_Library:USBC_Probe_Point","Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical","","","","","","","","","","","","","","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","AVAILABILITY","DESCRIPTION","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","MF","MP","MPN","OC_FARNELL","OC_NEWARK","PACKAGE","PARTREV","PRICE","STANDARD","SUPPLIER"
+"1","1","BT1","3.7","Device:Battery_Cell","Library:Battery","~","","","ASR00003","","","","","","","","","","",""
+"2","2","C1, C2","4.7u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","","","GRM155R60J475ME87D","","","","","","","","","","",""
+"3","5","C3, C4, C5, C6, C7","1u","Device:C","Capacitor_SMD:C_0402_1005Metric","~","",""," GCM155C71A105KE38D","","","","","","","","","","",""
+"4","1","C9","10uF","Device:C","Capacitor_SMD:C_0402_1005Metric","~","","","GRM155R60J106ME15D","","","","","","","","","","",""
+"5","1","C10",".1uF","Device:C","Capacitor_SMD:C_0402_1005Metric","~","","","GRM152R61A104KE19D","","","","","","","","","","",""
+"6","1","D1","SP0503BAHTG","ESD Prot:SP0503BAHTG","ESD Prot:SOT143","","Good","TVS DIODE 5.5VWM 8.5VC SOT143","SP0503BAHTG","","Littelfuse","SP0503BAHTG","","","","SOT-143 Littelfuse","N/A","0.46 USD","IPC-7351B",""
+"7","1","D2","NeoPixel","neopixel:NeoPixel","neopixel:LED_1655","","","","485-1655","1.6 mm","","","","","","","01","","Manufacturer recommendations",""
+"8","2","D3, D4","D_Schottky","Device:D_Schottky","Diode_SMD:D_SOD-523","~","","","NSR05T30XV2T5G","","","","","","","","","","",""
+"9","1","D5","LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","","","LTST-S270KRKT","","","","","","","","","","",""
+"10","1","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","","","","","","","","","","","","",""
+"11","1","J1","USB4105-GF-A","USB C:USB4105-GF-A","USB C:GCT_USB4105-GF-A","","","","USB4105-GF-A","3.31 mm","","","","","","","A3","","Manufacturer Recommendations",""
+"12","1","J2","Current Testing","Connector:Conn_01x02_Male","Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical","~","","","","","","","","","","","","","",""
+"13","2","Q1, Q2","BC846BLT1G","Transistor_BJT:2SC4213","Package_TO_SOT_SMD:SOT-23","https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213","","","BC846BLT1G","","","","","","","","","","",""
+"14","1","Q3","SSM3K36FS","Transistor_FET:2N7002","Package_TO_SOT_SMD:SOT-416","https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF","","","SSM3K36FS,LF","","","","","","","","","","",""
+"15","5","R1, R2, R10, R11, R12","50k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF4992X","","","","","","","","","","",""
+"16","4","R3, R4, R5, R7","5k1","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF5101X","","","","","","","","","","",""
+"17","1","R6","100k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERA-2VEB1003X","","","","","","","","","","",""
+"18","1","R8","2k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-H2RD2001X","","","","","","","","","","",""
+"19","1","R9","470","Device:R","Resistor_SMD:R_0402_1005Metric","~","",""," ERJ-H2RD4700X","","","","","","","","","","",""
+"20","2","R13, R14","10k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","ERJ-2RKF1002X","","","","","","","","","","",""
+"21","1","S1","JS102011SAQN","slide switch v3:JS102011SAQN","slide switch v3:SW_JS102011SAQN","JS102011SAQN","","","JS102011SAQN","","","","","","","","","","",""
+"22","1","SW1","Boot","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"23","1","SW2","Rst","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"24","1","SW3","SendEnter","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"25","1","SW4","SendSpace","Switch:SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816","~","","","434133025816","","","","","","","","","","",""
+"26","1","U1","MCP73831T-5ACI/OT","mcp738:MCP73831T-5ACI{slash}OT","mcp738:SOT95P280X145-5N","","","","MCP73831T-5ACI/OT","","","","MCP73831T-5ACI/OT","1332158","56K7045","SOT-5","","","","Microchip"
+"27","1","U2","Dig_Caliper","New_Library:Dig_Caliper","Library:Caliper","","","","","","","","","","","","","","",""
+"28","1","U3","LP5907MFX-3.3","3V3Reg:LP5907MFX-3.3","3V3Reg:SOT95P280X145-5N","","","","LP5907MFX-3.3/NOPB","","","","","","","","","","",""
+"29","1","U4","ESP32-C3-MINI-1-N4","esp32:ESP32-C3-MINI-1-N4","esp32:XCVR_ESP32-C3-MINI-1-N4","","","","ESP32-C3-MINI-1-N4 ","2.55mm","","","","","","","v1.0","","Manufacturer Recommendations",""
+"30","1","U5","LP5907MFX-1.5/NOPB","1V5Reg:LP5907MFX-1.5{slash}NOPB","SOT95P280X145-5N","","","","","","","","","","","","","","",""
+"31","1","U6","InterBoardConnection","New_Library:InterBoardConnection","Library:InterBoardConnection","","","","","","","","","","","","","","",""
+"32","1","U9","USBC_Probe_Point","New_Library:USBC_Probe_Point","Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical","","","","","","","","","","","","","","",""
