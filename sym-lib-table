@@ -9,4 +9,5 @@
   (lib (name "slide switch")(type "KiCad")(uri "${KIPRJMOD}/slide switch/AS11AP.kicad_sym")(options "")(descr ""))
   (lib (name "slide switch v2")(type "KiCad")(uri "${KIPRJMOD}/1825232-1/1825232-1.kicad_sym")(options "")(descr ""))
   (lib (name "slide switch v3")(type "KiCad")(uri "${KIPRJMOD}/JS102011SAQN/JS102011SAQN.kicad_sym")(options "")(descr ""))
+  (lib (name "1V5Reg")(type "KiCad")(uri "${KIPRJMOD}/LP5907MFX-1.5_NOPB/LP5907MFX-1.5_NOPB.kicad_sym")(options "")(descr ""))
 )
